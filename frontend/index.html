@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Vault</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Vault</h1>
+
+    <form id="movie-form">
+      <input type="text" id="title" placeholder="Название" required>
+      <input type="text" id="genre" placeholder="Жанр" required>
+      <input type="text" id="director" placeholder="Режиссёр" required>
+      <input type="number" id="year" placeholder="Год" required>
+      <input type="number" id="rating" placeholder="Рейтинг (0-10)" min="0" max="10">
+      <textarea id="description" placeholder="Описание"></textarea>
+      <button type="submit">Добавить фильм</button>
+    </form>
+
+    <input type="text" id="search" placeholder="Поиск по названию/режиссёру/описанию">
+
+    <ul id="movie-list"></ul>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

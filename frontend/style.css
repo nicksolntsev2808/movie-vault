@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; background: #111; color: #eee; }
+.container { display: flex; flex-direction: column; gap: 12px; }
+input, textarea, button { padding: 8px; font-size: 14px; }
+form { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+button { background: #e50914; color: white; border: none; cursor: pointer; }
+#movie-list { list-style: none; padding: 0; }
+#movie-list li { background: #1a1a1a; padding: 10px; margin-bottom: 8px; border-radius: 4px; }
